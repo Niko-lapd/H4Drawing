@@ -1,0 +1,11 @@
+import java.applet.*;
+import java.awt.*;
+
+public class H4DrawingShapes extends Applet {
+
+
+    @Override
+    public void paint(Graphics g) {
+        g.drawPolygon(new int[] {20, 30, 40}, new int[] {250, 100, 250}, 3);
+    }
+}
